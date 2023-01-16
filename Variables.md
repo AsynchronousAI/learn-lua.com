@@ -32,7 +32,8 @@ emptyVariable = nil
 # Local Variables
 
 Variables can be global or local. Global variables can be used anywhere in the script, and to make a variable local, you will need to add the word `local`
-before adding a value. For example:
+before adding a value. Using local variables does make the code faster and is recommended when needed.
+For example:
 
 ```lua
 myNumber = 1
@@ -46,3 +47,13 @@ end
 print(myString) -- This won't work because myString is only available inside of the if statement.
 print(globalNum) -- This will work even though globalNum is defined inside of the if statement, and that's because it's not local.
 ```
+# Forcing A Type
+If you want to force a type you can add a ": type" after the name, For example:
+```lua
+local myString: string = "a string"
+```
+Now for a normal variable, we can easily make it a number like so:
+```lua
+myString = 0
+```
+But with the string type enforced, it will cause an error
