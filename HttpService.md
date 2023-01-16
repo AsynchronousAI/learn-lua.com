@@ -8,7 +8,9 @@ HttpService
 
 One of the most useful services in Roblox is the HttpService, which provides functions for making HTTP requests and parsing JSON data. The HttpService can be used to communicate with web APIs and services, as well as retrieve and send data to a web server. The following is an example of using the HttpService to make a GET request and parse the response as JSON:
 
-```lua local HttpService = game:GetService("HttpService") local response = HttpService:GetAsync("https://api.example.com") local data = HttpService:JSONDecode(response) ```
+```lua 
+local HttpService = game:GetService("HttpService") local response = HttpService:GetAsync("https://api.example.com") local data = HttpService:JSONDecode(response)
+```
 
 You can also use HttpService to make POST requests, as shown in this example of making a friend counter using HttpService: \[\[2\](https://www.youtube.com/watch?v=wgIBxtRogeg)\]
 
