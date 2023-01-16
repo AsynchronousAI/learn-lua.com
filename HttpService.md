@@ -27,4 +27,4 @@ Services can also be used by Roblox Studio plugins to add additional functionali
 Conclusion
 ----------
 
-This tutorial has provided an introduction to using services in Roblox Lua scripting. Services are a powerful tool that can be used to add functionality and interact with the Roblox platform. Keep in mind that services can be used in many ways and are not limited to the examples provided here. You can find more information on the services provided by Roblox on the official documentation website.
+This tutorial has provided an introduction to using httpservices in Roblox Lua scripting. Services are a powerful tool that can be used to add functionality and interact with the Roblox platform. Keep in mind that services can be used in many ways and are not limited to the examples provided here. You can find more information on the services provided by Roblox on the official documentation website.
