@@ -3,7 +3,7 @@ How to define a type?
 -* variable: string = "hello"
 - variable.type(string) = "hello"
 - string: variable = "hello"
-Whats a variable
+Whats a variable?
 - An instance that appears in the explorer
 - A number that can be reused and changed
 - A string that can be reused and changed
