@@ -1,0 +1,20 @@
+Can multiple objects share the same metatable in Roblox?
+- No, each object must have its own unique metatable
+-* Yes, multiple objects can reference the same metatable
+- Only certain types of objects can share metatables
+- It depends on the implementation of the metatable
+Can a metatable be used to override the behavior of built-in methods for an object in Roblox?
+- No, built-in methods cannot be overridden
+- Only certain built-in methods can be overridden
+-* Yes, a metatable can be used to override the behavior of built-in methods for an object
+- It depends on the implementation of the metatable
+How can you access the metatable of an object in Roblox?
+- Use the object's prototype property
+-* Use the getmetatable() function and pass in the object
+- Use the object's metatable property
+- Use the object's type() function
+How can you create a custom method for an object in Roblox using a metatable?
+- Assign the custom method to the object's metatable property
+-* Define the custom method in the metatable and set the object's metatable to reference it
+- Use the :operator to assign the custom method to the object
+- Call the object's setmetatable() method and pass in the custom method
