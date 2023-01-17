@@ -7,19 +7,19 @@ Setting a metatable
 -------------------
 
 To set a metatable for a table, use the setmetatable function, which takes two arguments: the table and the metatable. The following example shows how to set a metatable for a table called myTable:
-
+```lua
     myMetatable = {}
     myTable = {}
     setmetatable(myTable, myMetatable)
-
+```
 
 Getting a metatable
 -------------------
 
 To access the metatable of a table, use the getmetatable function, which takes one argument: the table. The following example shows how to get the metatable of the myTable table:
-
+```lua
     myMetatable = getmetatable(myTable)
-
+```
 
 Metamethods
 -----------
