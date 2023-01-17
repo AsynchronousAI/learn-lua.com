@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-Services in Roblox are objects that provide functionality for scripts. They are similar to classes in traditional programming languages, but they are predefined by the Roblox platform and can be accessed and used in any script. Services provide functionality such as networking, data persistence, and user authentication. [1](https://www.create-learn.us/blog/roblox-scripting-tutorial/)
+Services in Roblox are objects that provide functionality for scripts. They are similar to classes in traditional programming languages, but they are predefined by the Roblox platform and can be accessed and used in any script. Services provide functionality such as networking, data persistence, and user authentication. 
 
 HttpService
 -----------
