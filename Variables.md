@@ -56,4 +56,4 @@ Now for a normal variable, we can easily make it a number like so:
 ```lua
 myString = 0
 ```
-But with the string type enforced, it will cause an error
+But with the string type enforced, it will cause an error.
